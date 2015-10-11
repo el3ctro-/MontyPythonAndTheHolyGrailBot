@@ -1,6 +1,8 @@
 # MontyPythonAndTheHolyGrailBot
 A Monty Python Telegram Bot Written in Go.
 
+The bot is still running on Telegram, @MontyPythonAndTheHolyGrailBot
+
 Discontinued Project.
 
 This was something I wrote over the course of a few hours on the weekend.  It uses BoltDB for the database and saves 8ball.txt and lyrics.txt to different buckets.  The bot will respond randomly with a line of text from quotes.txt and then give you your fortune at the bottom of the message (from 8ball.txt).
