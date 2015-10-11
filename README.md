@@ -9,4 +9,4 @@ This was something I wrote over the course of a few hours on the weekend.  It us
 
 It would be possible to compile this yourself and run it anywhere, given that you have generated an API key from telegram and set up the environment variable on your computer "MONTYPYTHONBOT".  This variable needs to have a portion of the telegram URL to make polling requests.
 
-Open source.
+Open source.  Free to use, distribute, redistribute, and modify in any way.
