@@ -206,14 +206,6 @@ func main() {
 							fmt.Errorf("Error! %s", err)
 						}
 						fmt.Printf("%#v", result)
-						// default:
-						// 	bytesFromTelegram := sendToTelegram("sendMessage", "chat_id="+strconv.Itoa(result.Message.From.ID)+"&text=Try me, "+result.Message.From.FirstName+".&reply_markup={keyboard:[['Send me lyrics']]}", client)
-						// 	var result jsonResult
-						// 	err = json.Unmarshal(bytesFromTelegram, &result)
-						// 	if err != nil {
-						// 		fmt.Errorf("Error! %s", err)
-						// 	}
-						// 	fmt.Printf("%#v", result)
 					}
 				}
 
